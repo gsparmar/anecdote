@@ -32,9 +32,7 @@ function App() {
     return <h3>{title}</h3>;
   };
 
-  const findWinner = () => {
-    return votes.indexOf(Math.max(...votes));
-  };
+  const findWinner = () => votes.indexOf(Math.max(...votes));
 
   return (
     <div>
